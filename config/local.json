@@ -1,0 +1,14 @@
+{
+  "frame_config": {
+    "http_server": {
+      "port": 8082
+    }
+  },
+  "database": {
+    "host": "",
+    "port": 5432,
+    "database": "",
+    "user": "",
+    "password": ""
+  }
+}

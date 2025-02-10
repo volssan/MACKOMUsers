@@ -1,0 +1,25 @@
+POST /api/v1/user/add
+Host: localhost:8082
+Accept: application/json
+
+{
+  "first_name": "Имя",
+  "last_name": "Фамилия",
+  "age": 0
+}
+
+###
+GET /api/v1/user/list
+Host: localhost:8082
+
+###
+POST /api/v1/user/filter
+Host: localhost:8082
+Accept: application/json
+
+{
+  "from_date": "2025-02-09T17:00:00+00:00",
+  "to_date": "2025-02-09T20:00:00+00:00",
+  "min_age": 0,
+  "max_age": 100
+}
